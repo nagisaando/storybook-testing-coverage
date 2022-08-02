@@ -26,5 +26,19 @@ npm run test-storybook -- --coverage
 ```
 
 
-# storybook-testing-coverage
+# what I did
+1. installed `@storybook/addon-coverage` add on and register it in .storybook/main.js
+2. installed `vite-plugin-istanbul` and register it in .storybook/main.js
+3. created nycrc.json in root and added extension key
+
+# what I need
+- coverage for vue file
+
+# what I am getting
+- only coverage for preview.js file
+![This is an image](./src/assets/coverage.png)
+
+
+
+
 
