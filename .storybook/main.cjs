@@ -23,9 +23,6 @@ module.exports = {
   },
   async viteFinal(config) {
     config.plugins.push(istanbul({
-      "extension": [
-        ".vue"
-      ]
     }));
     // customize the Vite config here
     return config;

@@ -1,4 +1,26 @@
 {
+  "/Users/nagisando/projects/Learning/storybook-testing-coverage/.storybook/preview.js": {
+    "path": "/Users/nagisando/projects/Learning/storybook-testing-coverage/.storybook/preview.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 9,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9
+    },
+    "f": {},
+    "b": {}
+  },
   "/Users/nagisando/projects/Learning/storybook-testing-coverage/src/stories/Button.vue": {
     "path": "/Users/nagisando/projects/Learning/storybook-testing-coverage/src/stories/Button.vue",
     "statementMap": {
