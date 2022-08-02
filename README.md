@@ -1,6 +1,8 @@
-# Vue 3 + Vite
+# Storybook coverage repo
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Dependencies
+- Vue 3
+- Vite
 
 # Setup
 
@@ -26,5 +28,20 @@ npm run test-storybook -- --coverage
 ```
 
 
-# storybook-testing-coverage
+# what I did
+1. installed `@storybook/addon-coverage` add on and register it in .storybook/main.js
+2. installed `vite-plugin-istanbul` and register it in .storybook/main.js
+3. add extension key to `istanbul` in plugin config
+
+# what I need
+- coverage for vue file
+
+# what I am getting
+- only coverage for preview.js file
+![Coverage](./src/assets/coverage.png)
+
+- Also, not getting `__coverage__` object in developer tool
+![Devtool](./src/assets/devtool.png)
+
+
 
