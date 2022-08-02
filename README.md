@@ -37,7 +37,7 @@ npm run test-storybook -- --coverage
 - coverage for vue file
 
 # what I am getting
-- only coverage for preview.js file
+- empty coverage file
 ![Coverage](./src/assets/coverage.png)
 
 - Also, not getting `__coverage__` object in developer tool
