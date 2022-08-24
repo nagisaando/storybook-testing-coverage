@@ -22,6 +22,8 @@ module.exports = {
     interactionsDebugger: true
   },
   async viteFinal(config) {
+    config.build ||= {};
+    config.build.sourcemap = true;
     config.plugins.push(istanbul({
       "extension": [
         ".vue"
